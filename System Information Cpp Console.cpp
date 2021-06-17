@@ -33,7 +33,7 @@ void DisplayCpuInformation()
 	be.DefaultTextColor();
 	Console.WriteLine("---------------------------------------------------------------\n\n");*/
 	cout << "\n\n---------------------------------------------------------------\n";	
-	cout << setw(1) << " " << setw(36) << system("Color 3a") << "CPU Information" << system("Color 3b");
+	cout << setw(1) << " " << setw(36)  << "CPU Information";
 	cout << "\n---------------------------------------------------------------\n";
 	printf("CPU: ");
 	for (i = 0x80000000; i <= nExIds; ++i) {
